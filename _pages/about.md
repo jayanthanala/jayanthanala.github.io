@@ -11,8 +11,8 @@ I’m a 2nd year MS CS student at New York University and an alumnus of Vellore 
 
 Prior to this, I was a Software Engineering Intern at Zopnik, in the MVP-Team where I worked on the development and designing of a new cloud-optimized e-commerce infrastructure for Zopnik. I have been a research intern at JNTU where I worked on developing models to classify and study airline-customer service patters. Later I interned at .
 
----
-# Skills
+Skills
+=======
 - `Languages`: C, C++, Python, Javascript, GoLang, Java, HTML, CSS
 - `Frameworks`: NodeJS, ReactJS, flask, Django, Rest API, PySpark, Hadoop
 - `Database & Cloud`: MySQL, PostgreSQL, MongoDB, AWS (Certified Cloud Practitioner), Digital Ocean, GCP
