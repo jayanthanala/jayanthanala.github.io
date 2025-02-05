@@ -3,7 +3,7 @@ title: "Collaborative Online Code Editor"
 collection: projects
 type: "Academic Project"
 venue: "New york"
-date: 2024
+# date: 2024
 permalink: /projects/QN
 excerpt: "this is a test excerpt"
 ---
