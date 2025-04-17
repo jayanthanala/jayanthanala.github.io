@@ -1,0 +1,16 @@
+
+main:
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Skills"
+    url: /skills/
+  - title: "Achievements"
+    url: /achievements/
+  - title: "Publications"
+    url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Contact"
+    url: /contact/
