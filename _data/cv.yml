@@ -1,0 +1,42 @@
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Software Engineer
+      institution: NYU Tandon School of Engineering, New York, NY
+      year: Aug 2023 – Nov 2024
+      description:
+        - Developed REST APIs with Flask and GraphQL for Wildlife Trafficking Analysis.
+        - Integrated AWS services, reducing downtime by 20% and improving performance.
+        - Optimized PostgreSQL and real-time streaming with Kafka and Spark.
+        - Used Grafana and Prometheus for monitoring.
+
+    - title: Software Engineer Intern
+      institution: Zopnik Innovations, Gurgaon, India
+      year: May 2021 – Jan 2022
+      description:
+        - Rebuilt order system using Node.js, React, MongoDB.
+        - Improved performance with Redis and indexing.
+        - Set up CI/CD with Jenkins, AWS, Docker, K8s.
+
+    - title: Backend Intern
+      institution: Molog Media LLC, New Delhi
+      year: Feb 2021 – May 2021
+      description:
+        - Built REST API for e-ticketing for 75K+ users/month.
+        - Integrated payment gateway with RabbitMQ and K8s.
+
+- title: Education
+  type: time_table
+  contents:
+    - title: M.S. in Computer Science
+      institution: New York University, New York
+      year: May 2025
+      description:
+        - GPA: 3.89/4.0
+
+    - title: B.Tech in Computer Science and Engineering
+      institution: Vellore Institute of Technology, Vellore
+      year: May 2023
+      description:
+        - GPA: 3.93/4.0
