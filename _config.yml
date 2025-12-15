@@ -1,13 +1,13 @@
 
 title: "Jayanth Anala"
 email: jayanthanala@gmail.com
-description: >- 
-  Personal site of Jayanth Sri Vaastava Anala, software engineer and NYU CS grad student.
+description: >-
+  Personal site of Jayanth Sri Vaastava Anala, Backend Engineer at PEMCO and NYU CS graduate.
 baseurl: ""
 url: "https://jayanthanala.github.io"
 github_username: jayanthanala
 
-theme: minima
+# No theme - using custom layouts and CSS
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -20,4 +20,8 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

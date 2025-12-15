@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>{{ page.title }} | Jayanth Anala</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
   <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="sidebar">
     <div class="profile">
-      <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Profile Image" class="profile-img">
-      <h2>Jayanth Anala</h2>
-      <p>Software Engineer<br>CS @ NYU</p>
+      <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Jayanth Anala" class="profile-img">
+      <h2>Jayanth Sri Vaastava Anala</h2>
+      <p>Backend Engineer @ PEMCO<br>AWS Certified x2<br>NYU MS CS '25</p>
       <ul class="sidebar-links">
         <li><a href="mailto:jayanthanala@gmail.com">Email</a></li>
         <li><a href="https://github.com/jayanthanala" target="_blank">GitHub</a></li>
@@ -28,7 +31,6 @@
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
         <a href="{{ '/skills/' | relative_url }}">Skills</a>
         <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
-        <a href="{{ '/contact/' | relative_url }}">Contact</a>
       </nav>
     </header>
     <main>
