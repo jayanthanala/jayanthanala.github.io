@@ -16,6 +16,12 @@ A real-time collaborative code editor supporting multiple programming languages 
 - Architected a cloud-native solution using AWS ECS, Fargate, Lambda, S3, API Gateway, and DynamoDB to handle 1,000+ concurrent code executions per second, prioritizing availability and ensuring secure isolation
 - Implemented CI/CD pipelines with GitHub Actions, CodeBuild, and CodePipeline, along with background jobs for session cleanup and resource optimization, enabling zero-downtime deployments and reducing cloud costs
 
+**System Architecture:**
+
+<img src="/assets/codecollab-architecture.svg" alt="CodeCollab Architecture" class="architecture-diagram">
+
+<a href="https://www.youtube.com/watch?v=vL2KroJkakg" target="_blank" class="video-link">Watch Demo on YouTube</a>
+
 ---
 
 ### LeetStory: AI-Powered Interview Prep Tool
