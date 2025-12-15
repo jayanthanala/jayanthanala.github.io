@@ -22,20 +22,41 @@
         <li><a href="https://linkedin.com/in/jayanthanala" target="_blank">LinkedIn</a></li>
       </ul>
     </div>
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode">
+      <span class="sun-icon">☀️</span>
+      <span class="moon-icon">🌙</span>
+    </button>
   </div>
   <div class="main-content">
     <header>
       <nav>
         <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about/' | relative_url }}">About</a>
+        <a href="{{ '/experience/' | relative_url }}">Experience</a>
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
         <a href="{{ '/skills/' | relative_url }}">Skills</a>
         <a href="{{ '/achievements/' | relative_url }}">Achievements</a>
+        <a href="{{ '/contact/' | relative_url }}">Contact</a>
       </nav>
     </header>
     <main>
       {{ content }}
     </main>
   </div>
+  <script>
+    function getPreferredTheme() {
+      const stored = localStorage.getItem('theme');
+      if (stored) return stored;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    }
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      setTheme(current === 'dark' ? 'light' : 'dark');
+    }
+    setTheme(getPreferredTheme());
+  </script>
 </body>
 </html>
