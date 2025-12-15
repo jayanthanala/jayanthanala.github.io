@@ -5,19 +5,20 @@ permalink: /skills/
 ---
 
 ### Programming Languages
-Python, JavaScript, TypeScript, Go, Java, HTML, CSS, SQL, NoSQL, Bash, C, C++
+Python, Java, JavaScript, TypeScript, Go, C++, HTML, CSS3, Bash, Unix
 
-### Backend
-Node.js, Flask, Django, Spring, RabbitMQ, GraphQL, REST APIs, gRPC, SparkSQL
+### Frameworks & Libraries
+React, Next.js, Angular, Node.js, Flask, FastAPI, Django, Spring Boot, GraphQL, REST APIs, SparkSQL
 
-### Databases
-MySQL, PostgreSQL, DynamoDB, Redis, MongoDB, OpenSearch
+### Tools & Technologies
+MySQL, PostgreSQL, MongoDB, Postgres, Git, Jenkins, Redis, Docker, Kubernetes, Kafka, RabbitMQ
 
-### Frontend
-React, Next.js, Bootstrap, Electron.js, HTML, CSS, JavaScript
+### Cloud & DevOps
+AWS (ECS, EC2, Lambda, S3, DynamoDB, API Gateway, CodePipeline), GCP, Azure, Grafana, Prometheus
 
-### DevOps & Cloud
-AWS (Lambda, ECS, EC2, S3, RDS, CodePipeline), Docker, Kubernetes, Jenkins, GCP, Azure, Grafana, Prometheus
+### Concepts & Methodologies
+System Design, Scalability, Distributed Systems, Microservices Architecture, OOP, TDD, Agile, SOLID Principles, CI/CD, ETL Pipelines
 
-### Concepts
-System Design, Scalability, OOP, TDD, Agile, SOLID Principles
+### Certifications
+- AWS Certified Solutions Architect
+- AWS Certified Cloud Practitioner

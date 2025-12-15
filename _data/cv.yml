@@ -3,28 +3,38 @@
   type: time_table
   contents:
     - title: Software Engineer
-      institution: NYU Tandon School of Engineering, New York, NY
-      year: Aug 2023 – Nov 2024
+      institution: PEMCO Mutual Insurance Co., Seattle, WA
+      year: Feb 2025 – Present
       description:
-        - Developed REST APIs with Flask and GraphQL for Wildlife Trafficking Analysis.
-        - Integrated AWS services, reducing downtime by 20% and improving performance.
-        - Optimized PostgreSQL and real-time streaming with Kafka and Spark.
-        - Used Grafana and Prometheus for monitoring.
+        - Built a full-stack RAG platform with Python, FastAPI, React, Cognitive Search and Azure OpenAI, enabling 500+ agents to query complex insurance policies in natural language and improving customer satisfaction by 25%
+        - Developed an AI meeting scheduling agent using FastAPI and Graph API that autonomously retrieves availability and proposes optimal time slots; deployed through Power Apps for C-suite use, saving $25K/year in admin overhead
+        - Modernized multiple ETL workflows by migrating on-premise pipelines to Databricks, leveraging Delta Lake and PySpark to improve scalability and cut large-scale data processing latency by 30%
+        - Deployed microservices in Docker and Kubernetes across production, test, and dev environments, streamlining releases and cutting deployment time
+        - Collaborated with engineering, product, data, and sales teams to define feature stories, contribute to technical design, and ensure end-to-end system alignment
 
-    - title: Software Engineer Intern
-      institution: Zopnik Innovations, Gurgaon, India
-      year: May 2021 – Jan 2022
+    - title: Software Engineer - Research
+      institution: New York University (NYU-VIDA), New York, NY
+      year: Sept 2023 – Apr 2025
       description:
-        - Rebuilt order system using Node.js, React, MongoDB.
-        - Improved performance with Redis and indexing.
-        - Set up CI/CD with Jenkins, AWS, Docker, K8s.
+        - Developed RESTful and GraphQL APIs with Flask and Python for real-time wildlife trafficking analysis, supporting queries on 300K+ records with sub-200ms response times
+        - Optimized AWS infrastructure by offloading batch jobs to Lambda, leveraging EC2 auto-scaling groups, and integrating S3 lifecycle policies, reducing system downtime by 20% and lowering operational costs
+        - Designed a Kafka-based ingestion workflow that processes continuously scraped marketplace data and feeds cleaned records into downstream APIs and ETL jobs, improving data freshness by 40%
+        - Deployed observability stack with Prometheus and Grafana, automating metrics and alerts and reducing incident response time by 20%
 
-    - title: Backend Intern
-      institution: Molog Media LLC, New Delhi
-      year: Feb 2021 – May 2021
+    - title: Full Stack Development Intern
+      institution: Zopnik Innovations LLC, India
+      year: Aug 2022 – May 2023
       description:
-        - Built REST API for e-ticketing for 75K+ users/month.
-        - Integrated payment gateway with RabbitMQ and K8s.
+        - Refactored APIs with Node.js, JavaScript, and async/await for non-blocking concurrency, and introduced GraphQL for efficient nested queries, boosting order throughput and raising customer satisfaction by 20%
+        - Improved API and UI component performance by Redis caching and MongoDB indexing, reducing API latency to 500 ms, resulting in a 30% reduction in page load times
+        - Automated build, test, and deployment workflows using Jenkins and Docker, increasing release frequency to twice per week and integrated SonarQube for code quality analysis
+
+    - title: Backend Development Intern
+      institution: Molog Media LLC, India
+      year: Feb 2022 – May 2022
+      description:
+        - Developed high-performance e-ticketing APIs with Java, Spring Boot, and PostgreSQL using multi-threading and connection pooling, supporting 50K+ monthly users and 2K+ daily transactions
+        - Integrated a secure and fault-tolerant payment pipeline using RabbitMQ queues with idempotent processing and auto-scaling microservices, ensuring reliable transactions and reducing failure rates to <0.5%
 
 - title: Education
   type: time_table
@@ -33,10 +43,16 @@
       institution: New York University, New York
       year: May 2025
       description:
-        - GPA: 3.89/4.0
+        - GPA: 4.0/4.0
 
     - title: B.Tech in Computer Science and Engineering
       institution: Vellore Institute of Technology, Vellore
       year: May 2023
       description:
         - GPA: 3.93/4.0
+
+- title: Certifications
+  type: list
+  contents:
+    - AWS Certified Solutions Architect
+    - AWS Certified Cloud Practitioner
